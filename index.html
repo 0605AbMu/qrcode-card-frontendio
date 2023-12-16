@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --white: hsl(0, 0%, 100%);
+        --light-gray: hsl(212, 45%, 89%);
+        --grayish-blue: hsl(220, 15%, 55%);
+        --dark-blue: hsl(218, 44%, 22%);
+
+        --font-bold: 400;
+        --font-bolder: 700;
+      }
+      p {
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+      }
+      body {
+        background-color: var(--light-gray);
+        height: 100vh;
+        width: 100vw;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .card {
+        background-color: var(--white);
+        border-radius: 15px;
+        padding: 10px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 1px 1px 10px #00000019;
+      }
+
+      .title {
+        font-weight: var(--font-bolder);
+        margin: 20px 0;
+      }
+
+      .image {
+        width: 100%;
+        border-radius: 15px;
+      }
+
+      @media only screen and (max-width: 375px) {
+        /* Mobile */
+      }
+
+      @media only screen and (max-width: 1440px) {
+        /* Desktop */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img class="image" src="./images/image-qr-code.png" alt="qr-code" />
+
+        <p class="title">
+          Improve your front-end skills by building projects Scan the QR code to
+          visit
+        </p>
+        <p>Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
